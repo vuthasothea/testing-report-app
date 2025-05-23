@@ -13,7 +13,7 @@ import { UserAvatarProfile } from '@/components/user-avatar-profile';
 import { useRouter } from 'next/navigation';
 export function UserNav() {
   const user = {
-    imageUrl: '/app-logo.jpg',
+    imageUrl: '/app-logo.png',
     fullName: 'Vutha Sothea',
     emailAddresses: [
       { emailAddress: 'vuthasothea@gmail.com' }
@@ -55,6 +55,7 @@ export function UserNav() {
           </DropdownMenuGroup>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
+            Sign Out
             {/* <SignOutButton redirectUrl='/auth/sign-in' /> */}
           </DropdownMenuItem>
         </DropdownMenuContent>

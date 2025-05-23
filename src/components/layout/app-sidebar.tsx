@@ -153,7 +153,7 @@ export default function AppSidebar() {
                   
                   <UserAvatarProfile
                     user={{
-                      imageUrl: '/app-logo.jpg',
+                      imageUrl: '/app-logo.png',
                       fullName: 'Vutha Sothea',
                       emailAddresses: [
                         { emailAddress: 'vuthasothea@gmail.com' }
@@ -174,7 +174,7 @@ export default function AppSidebar() {
                   <div className='px-1 py-1.5'>
                     <UserAvatarProfile
                       user={{
-                        imageUrl: '/app-logo.jpg',
+                        imageUrl: '/app-logo.png',
                         fullName: 'Vutha Sothea',
                         emailAddresses: [
                           { emailAddress: 'vuthasothea@gmail.com' }
@@ -204,6 +204,7 @@ export default function AppSidebar() {
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
                   <IconLogout className='mr-2 h-4 w-4' />
+                  Sign out
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

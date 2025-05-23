@@ -1,7 +1,13 @@
+import { redirect } from "next/navigation";
+
 export default function DashboardPage() {
 
-  return (
-    <h1>Dashboard Page</h1>
-  )
+  const isLoggedIn = true;
+
+  if(isLoggedIn) {
+    redirect("/dashboard/overview");
+  } else {
+    redirect("/login");
+  }
 
 }

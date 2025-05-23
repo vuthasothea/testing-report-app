@@ -55,7 +55,7 @@ interface Navbar1Props {
 const Navbar = ({
   logo = {
     url: "/",
-    src: "/app-logo.jpg",
+    src: "/app-logo.png",
     alt: "logo",
     title: "Report System",
   },
